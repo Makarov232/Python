@@ -48,7 +48,7 @@ def show_tasks():
     title = tk.Label(root, text="Мои текущие задачи", font=("Arial", 24, "bold"), fg="yellow", bg="black")
     title.pack(pady=10)
 
-    tasks = load_tasks("/Users/merykarenovna/Downloads/js/python/tkinter/tasks.txt")
+    tasks = load_tasks("/Users/makarov/Downloads/js/python/tkinter/tasks.txt")
 
     for name, date in tasks:
         text, color = describe_task(name, date)
